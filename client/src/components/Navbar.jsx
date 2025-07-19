@@ -66,9 +66,14 @@ const Navbar = () => {
         </div>
 
         {!user ? (
+          <>
           <button onClick={() => setShowUserLogin(true)} className="login-button">
             Login
           </button>
+          <button onClick={() => navigate('/seller')} className="admin-button">
+            Admin
+          </button>
+          </>
         ) : (
           <div className="profile-login">
             <img src="/profile_icon.png" alt="profile-pic" />

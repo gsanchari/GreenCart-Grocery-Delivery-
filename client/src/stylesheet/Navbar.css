@@ -91,6 +91,15 @@
   cursor: pointer;
 }
 
+.admin-button {
+  background-color: #e5f1ec;
+  color: rgb(0, 0, 0);
+  padding: 8px 20px;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
 .login-button:hover {
   background-color: #3c946b;
 }
