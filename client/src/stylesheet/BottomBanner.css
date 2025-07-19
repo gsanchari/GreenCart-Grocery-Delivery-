@@ -1,0 +1,105 @@
+.bottom-banner-container {
+  position: relative;
+  margin-top: 6rem; /* equivalent to mt-24 */
+}
+
+.banner-img {
+  width: 100%;
+  display: block;
+  border-radius: 30px;
+}
+
+.desktop-only {
+  display: none;
+}
+
+.mobile-only {
+  display: block;
+}
+
+/* Media query for md breakpoint (~768px and above) */
+@media (min-width: 768px) {
+  .desktop-only {
+    display: block;
+  }
+
+  .mobile-only {
+    display: none;
+  }
+}
+
+.banner-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem; /* pt-16 */
+  gap: 2px;
+
+  /* md:items-end, md:justify-center, md:pt-0, md:pr-24 */
+}
+
+@media (min-width: 768px) {
+  .banner-content {
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 0;
+    padding-right: 10rem; /* pr-24 */
+  }
+}
+
+.content-wrapper {
+  text-align: left;
+}
+
+.banner-heading {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;
+  color: var(--primary-color); /* Assumes you defined --primary-color in root or body */
+}
+
+@media (min-width: 768px) {
+  .banner-heading {
+    font-size: 1.875rem; /* text-3xl */
+  }
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* margin-top: 0.5rem; */
+}
+
+.feature-icon {
+  width: 2.25rem; /* w-9 */
+}
+
+@media (min-width: 768px) {
+  .feature-icon {
+    width: 2.75rem; /* md:w-11 */
+  }
+}
+
+.feature-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .feature-title {
+    font-size: 1rem; /* text-lf approximated */
+  }
+}
+
+.feature-description {
+  color: rgba(107, 114, 128, 0.7); /* text-gray-500/70 */
+  font-size: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .feature-description {
+    font-size: 0.875rem; /* text-sm */
+  }
+}

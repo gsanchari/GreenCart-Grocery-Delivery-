@@ -1,0 +1,265 @@
+/* Cart.css */
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  /* padding: 4rem 1.5rem; */
+  max-width: 96rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .cart-container {
+    flex-direction: row;
+  }
+}
+
+.cart-products-section {
+  flex: 1;
+  max-width: 64rem;
+}
+
+.cart-title {
+  font-size: 1.875rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.cart-items-count {
+  font-size: 0.875rem;
+  color:  #4fbf8b;
+}
+
+.cart-columns-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  color: #6b7280;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 0.75rem;
+}
+
+.cart-product-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  color: #6b7280;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding-top: 0.75rem;
+}
+
+.product-info-cart {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+  .product-info {
+    gap: 1.5rem;
+  }
+}
+
+.product-image-cart {
+  cursor: pointer;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
+
+.image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product-name {
+  display: none;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  .product-name {
+    display: block;
+  }
+}
+
+.product-meta {
+  font-weight: 400;
+  color: rgba(107, 114, 128, 0.7);
+}
+
+.qty-selector {
+  display: flex;
+  align-items: center;
+}
+
+.qty-dropdown {
+  outline: none;
+}
+
+.remove-btn {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  background-color: white;
+  font-size: 25px;
+  padding-right: 200px;
+  
+}
+.remove-btn i{
+    color: red;
+}
+
+.continue-shopping {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 0.5rem;
+  color:  #4fbf8b;
+  font-weight: 500;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.order-summary-section {
+  max-width: 22.5rem;
+  width: 100%;
+  height: 34rem;
+  background-color: rgba(243, 244, 246, 0.4);
+  padding: 1.25rem;
+  margin-top: 4rem;
+  border: 1px solid rgba(199, 202, 205, 0.7);
+  border-radius: 20px;
+}
+
+@media (min-width: 768px) {
+  .order-summary-section {
+    margin-top: 0;
+  }
+}
+
+.summary-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color:  #4ab181;
+}
+
+.divider {
+  border-color: #d1d5db;
+  margin: 1.25rem 0;
+}
+
+.address-section .section-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 1.5rem;
+}
+
+.address-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 0.5rem;
+}
+
+.address-text {
+  color: #6b7280;
+}
+
+.change-address {
+  color:  #4fbf8b;
+  text-decoration: underline;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.dropdown-address {
+  position: absolute;
+  top: 3rem;
+  background: white;
+  border: 1px solid #d1d5db;
+  font-size: 0.875rem;
+  width: 100%;
+  z-index: 10;
+}
+
+.address-option,
+.add-address {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.address-option:hover {
+  background-color: #f3f4f6;
+}
+
+.add-address {
+  text-align: center;
+  color:  #4fbf8b;
+ 
+}
+
+.add-address:hover {
+  background-color: rgba(99, 102, 241, 0.1);
+}
+
+.payment-select {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  background: white;
+  padding: 0.5rem 0.75rem;
+  margin-top: 0.5rem;
+  outline: none;
+}
+
+.summary-details {
+  color: #6b7280;
+  margin-top: 1rem;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-top: 0.75rem;
+}
+
+.free-shipping {
+  color: #16a34a;
+}
+
+.place-order-btn {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  background-color:  #4fbf8b;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+.place-order-btn:hover {
+  background-color:  #48ad7e;
+}
