@@ -141,7 +141,7 @@ const Cart = () => {
                                             value={cartItems[product._id] || 1}
                                             className='qty-dropdown'
                                         >
-                                            {Array(Math.max(9, cartItems[product._id])).fill('').map((_, i) => (
+                                            {Array(Math.max(9, cartItems[product._id])  || 1).fill('').map((_, i) => (
                                                 <option key={i} value={i + 1}>{i + 1}</option>
                                             ))}
                                         </select>

@@ -339,7 +339,6 @@ export const dummyProducts = [
     _id: "ek54j45k",
     name: "Mango 1 kg",
     category: "Fruits",
-
     price: 150,
     offerPrice: 140,
     image: [mango_image_1],

@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="desktop-menu">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/products">All Product</NavLink>
-        <NavLink to="/">Contact</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
 
         <div className="search-bar">
           <input

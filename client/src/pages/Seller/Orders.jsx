@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useAppContext } from '../../context/AppContext';
 import { assets, dummyOrders } from '../../assets/assets';
+import toast from 'react-hot-toast';
 
 const Orders = () => {
   const { currency,axios } = useAppContext();
@@ -36,7 +37,7 @@ const Orders = () => {
                 <div>
                   {order.items.map((item, idx) => (
                     <p key={idx} className="order-product-name">
-                      {item.product.name}{' '}
+                      {item.product?.name || '[Deleted Product]'}{' '}
                       <span className="order-quantity">x {item.quantity}</span>
                     </p>
                   ))}
