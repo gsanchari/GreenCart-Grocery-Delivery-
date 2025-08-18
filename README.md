@@ -5,13 +5,13 @@ A full-stack **Grocery Shop Website** built with **MERN Stack** and **Stripe**.
 ---
 
 ## 🚀 Features
--✅ User Authentication & Authorization (Signup/Login)
--✅ Product Management (Add, Update, Delete, View)
--✅ Image Uploads with Multer and Cloudinary
--✅ Cart & Checkout System
--✅ Secure Payments with Stripe
--✅ Order Management for Users & Admin
--✅ Responsive & User-Friendly UI
+- ✅ User Authentication & Authorization (Signup/Login)
+- ✅ Product Management (Add, Update, Delete, View)
+- ✅ Image Uploads with Multer and Cloudinary
+- ✅ Cart & Checkout System
+- ✅ Secure Payments with Stripe
+- ✅ Order Management for Users & Admin
+- ✅ Responsive & User-Friendly UI
 
 ---
 
