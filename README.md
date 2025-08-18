@@ -21,4 +21,3 @@ A full-stack **Grocery Shop Website** built with **MERN Stack** and **Stripe**.
 - **File Uploads:** Multer + Cloudinary
 - **Auth:** JWT + Bcrypt
 
----
