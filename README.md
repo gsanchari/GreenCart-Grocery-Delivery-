@@ -2,7 +2,6 @@
 
 A full-stack **Grocery Shop Website** built with **MERN Stack** and **Stripe**.
 
----
 
 ## 🚀 Features
 - ✅ User Authentication & Authorization (Signup/Login)
@@ -13,7 +12,6 @@ A full-stack **Grocery Shop Website** built with **MERN Stack** and **Stripe**.
 - ✅ Order Management for Users & Admin
 - ✅ Responsive & User-Friendly UI
 
----
 
 ## 🛠️ Tech Stack
 - **Frontend:** React.js, CSS / Tailwind CSS
