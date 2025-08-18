@@ -1,17 +1,17 @@
 # 🛒 Green Cart - Grocery Shop
 
-A full-stack **Grocery Shop Website** built with **MERN Stack** + **Stripe**.
+A full-stack **Grocery Shop Website** built with **MERN Stack** and **Stripe**.
 
 ---
 
 ## 🚀 Features
-- User Authentication (JWT)
-- Product CRUD (Add / Edit / Delete / View)
-- Image Upload (Multer + Cloudinary)
-- Cart & Checkout System
-- Stripe Payment Gateway
-- Order Management (User + Admin)
-- Responsive UI (React.js)
+-✅ User Authentication & Authorization (Signup/Login)
+-✅ Product Management (Add, Update, Delete, View)
+-✅ Image Uploads with Multer and Cloudinary
+-✅ Cart & Checkout System
+-✅ Secure Payments with Stripe
+-✅ Order Management for Users & Admin
+-✅ Responsive & User-Friendly UI
 
 ---
 
